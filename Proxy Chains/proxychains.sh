@@ -3,7 +3,8 @@
 # If not installed uncomment the below commands
 # sudo apt-get update
 # sudo apt-get upgrade
-# sudo apt install tor 
+ sudo apt install -y tor 
+ sudo apt install -y proxychains
 
 sudo systemctl status tor 
 sudo systemctl enable tor
